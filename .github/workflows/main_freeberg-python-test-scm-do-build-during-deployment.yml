@@ -23,6 +23,7 @@ jobs:
           python-version: '3.8'
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+      # touch
       
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
